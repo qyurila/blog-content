@@ -1,7 +1,8 @@
 ---
 external: false
-title: "Basic markdown style guide"
-description: "You can author content using the familiar markdown syntax you already know. All basic markdown syntax is supported."
+draft: true
+title: 'Basic markdown style guide'
+description: 'You can author content using the familiar markdown syntax you already know. All basic markdown syntax is supported.'
 date: 2022-11-02
 ---
 
@@ -78,15 +79,15 @@ Paragraphs can be multiline too when they constitute words that make up more tha
 Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism). You can customise to whichever theme you want from the [plenty available prism themes](https://github.com/PrismJS/prism-themes).
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<title>Example HTML5 Document</title>
+	</head>
+	<body>
+		<p>Test</p>
+	</body>
 </html>
 ```
 
